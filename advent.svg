@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   sodipodi:docname="advent.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-bbox="false"
+     inkscape:zoom="0.84"
+     inkscape:cx="464.88095"
+     inkscape:cy="382.7381"
+     inkscape:window-width="1508"
+     inkscape:window-height="1003"
+     inkscape:window-x="320"
+     inkscape:window-y="112"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     inkscape:snap-global="false" />
+  <defs
+     id="defs2">
+    <filter
+       height="1.0149696"
+       width="1.009247"
+       y="-0.0074848016"
+       x="-0.0046234999"
+       inkscape:menu-tooltip="Silk carpet texture, horizontal stripes"
+       inkscape:menu="Textures"
+       inkscape:label="Silk Carpet"
+       style="color-interpolation-filters:sRGB;"
+       id="filter1999">
+      <feTurbulence
+         type="turbulence"
+         numOctaves="2"
+         baseFrequency="0.01 0.11"
+         seed="10"
+         id="feTurbulence1981" />
+      <feColorMatrix
+         result="result5"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1.3 0 "
+         id="feColorMatrix1983" />
+      <feComposite
+         in="SourceGraphic"
+         operator="out"
+         in2="result5"
+         id="feComposite1985" />
+      <feMorphology
+         operator="dilate"
+         radius="1.3"
+         result="result3"
+         id="feMorphology1987" />
+      <feTurbulence
+         numOctaves="3"
+         baseFrequency="0.08 0.05"
+         type="fractalNoise"
+         seed="7"
+         result="result6"
+         id="feTurbulence1989" />
+      <feGaussianBlur
+         stdDeviation="0.5"
+         result="result7"
+         id="feGaussianBlur1991" />
+      <feDisplacementMap
+         in="result3"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         scale="3"
+         result="result4"
+         in2="result7"
+         id="feDisplacementMap1993" />
+      <feComposite
+         in="result4"
+         k1="1"
+         result="result2"
+         operator="arithmetic"
+         in2="result4"
+         k2="1"
+         id="feComposite1995" />
+      <feBlend
+         in2="result4"
+         mode="normal"
+         in="result2"
+         id="feBlend1997" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter2711"
+       x="-2.1839238"
+       y="-1.1898349"
+       width="4.2775222"
+       height="3.5013389">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood2701" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite2703" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="22.8228"
+         result="blur"
+         id="feGaussianBlur2705" />
+      <feOffset
+         dx="-48.8024"
+         dy="8.68263"
+         result="offset"
+         id="feOffset2707" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="fbSourceGraphic"
+         id="feComposite2709" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3997" />
+      <feFlood
+         id="feFlood3999"
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite4001"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur4003"
+         in="composite1"
+         stdDeviation="16.2162"
+         result="blur" />
+      <feOffset
+         id="feOffset4005"
+         dx="-44.6108"
+         dy="0.898204"
+         result="offset" />
+      <feComposite
+         in2="offset"
+         id="feComposite4007"
+         in="offset"
+         operator="atop"
+         result="composite2" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 101.50841,114.24912 c -0.0335,-1.54321 0.10678,-2.9995 1.01763,-4.07051"
+       id="path1302"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/Users/marcusedwards/Documents/Projects/advent/wreath.png"
+       inkscape:export-xdpi="61.127201"
+       inkscape:export-ydpi="61.127201" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 150.86338,91.352483 c -0.18634,-2.476008 0.53959,-4.039737 1.78085,-5.088141"
+       id="path1298"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/Users/marcusedwards/Documents/Projects/advent/wreath.png"
+       inkscape:export-xdpi="61.127201"
+       inkscape:export-ydpi="61.127201" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 110.68742,84.483492 c 0.005,-1.44164 0.89432,-2.883279 -1.78085,-4.324919"
+       id="path1300"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/Users/marcusedwards/Documents/Projects/advent/wreath.png"
+       inkscape:export-xdpi="61.127201"
+       inkscape:export-ydpi="61.127201" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 117.81082,58.788382 c 0.47373,-2.339384 0.15981,-3.891123 -1.27204,-4.324922"
+       id="path1296"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/Users/marcusedwards/Documents/Projects/advent/wreath.png"
+       inkscape:export-xdpi="61.127201"
+       inkscape:export-ydpi="61.127201" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 69.453124,78.377724 c -0.16279,-1.945911 0.514478,-3.331783 1.78085,-4.324919"
+       id="path1294"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/Users/marcusedwards/Documents/Projects/advent/wreath.png"
+       inkscape:export-xdpi="61.127201"
+       inkscape:export-ydpi="61.127201" />
+    <path
+       style="fill:#ff7f2a;fill-opacity:1;stroke:#ff7f2a;stroke-width:0.833129;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 116.4191,103.81995 -11.67131,50.31417"
+       id="path4911"
+       inkscape:export-filename="/Users/marcusedwards/Documents/Projects/advent/wreath.png"
+       inkscape:export-xdpi="61.127201"
+       inkscape:export-ydpi="61.127201" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#ff9900;stroke-width:1.37469;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path846"
+       cx="110.45701"
+       cy="132.98195"
+       rx="41.155052"
+       ry="29.396467"
+       inkscape:export-filename="/Users/marcusedwards/Documents/Projects/advent/wreath.png"
+       inkscape:export-xdpi="61.127201"
+       inkscape:export-ydpi="61.127201" />
+    <g
+       id="g4921"
+       transform="matrix(1.0070895,0,0,0.7603798,-8.6557037,22.229846)"
+       inkscape:export-filename="/Users/marcusedwards/Documents/Projects/advent/wreath.png"
+       inkscape:export-xdpi="61.127201"
+       inkscape:export-ydpi="61.127201">
+      <ellipse
+         style="fill:#ff7f2a;fill-opacity:1;stroke:#ff7f2a;stroke-width:0.973025;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse1210"
+         cx="78.057068"
+         cy="133.51111"
+         rx="3.583616"
+         ry="3.102288" />
+      <rect
+         style="fill:#ff7f2a;fill-opacity:1;stroke:#ff7f2a;stroke-width:0.848978;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1330"
+         width="7.3038673"
+         height="7.1755238"
+         x="74.409286"
+         y="125.72042" />
+    </g>
+    <g
+       id="g1500"
+       transform="matrix(1.0100794,0,0,0.71555682,-21.893537,39.229816)"
+       inkscape:export-filename="/Users/marcusedwards/Documents/Projects/advent/wreath.png"
+       inkscape:export-xdpi="61.127201"
+       inkscape:export-ydpi="61.127201">
+      <ellipse
+         style="fill:#ff7f2a;fill-opacity:1;stroke:#ff7f2a;stroke-width:0.973025;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse1494"
+         cx="171.62189"
+         cy="135.4062"
+         rx="3.583616"
+         ry="3.102288" />
+      <rect
+         style="fill:#ff7f2a;fill-opacity:1;stroke:#ff7f2a;stroke-width:0.848978;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1496"
+         width="7.3038673"
+         height="7.1755238"
+         x="167.97411"
+         y="127.61551" />
+    </g>
+    <g
+       id="g1746"
+       transform="matrix(1.0131693,0,0,0.67080125,-56.273034,12.088549)"
+       inkscape:export-filename="/Users/marcusedwards/Documents/Projects/advent/wreath.png"
+       inkscape:export-xdpi="61.127201"
+       inkscape:export-ydpi="61.127201">
+      <ellipse
+         style="fill:#ff7f2a;fill-opacity:1;stroke:#ff7f2a;stroke-width:0.973025;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse1742"
+         cx="171.62189"
+         cy="135.4062"
+         rx="3.583616"
+         ry="3.102288" />
+      <rect
+         style="fill:#ff7f2a;fill-opacity:1;stroke:#ff7f2a;stroke-width:0.848978;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1744"
+         width="7.3038673"
+         height="7.1755238"
+         x="167.97411"
+         y="127.61551" />
+    </g>
+    <g
+       id="g1752"
+       transform="matrix(1.0070895,0,0,0.76037988,-70.748405,56.468764)"
+       inkscape:export-filename="/Users/marcusedwards/Documents/Projects/advent/wreath.png"
+       inkscape:export-xdpi="61.127201"
+       inkscape:export-ydpi="61.127201">
+      <ellipse
+         style="fill:#ff7f2a;fill-opacity:1;stroke:#ff7f2a;stroke-width:0.973025;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse1748"
+         cx="171.62189"
+         cy="135.4062"
+         rx="3.583616"
+         ry="3.102288" />
+      <rect
+         style="fill:#ff7f2a;fill-opacity:1;stroke:#ff7f2a;stroke-width:0.848978;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1750"
+         width="7.3038673"
+         height="7.1755238"
+         x="167.97411"
+         y="127.61551" />
+    </g>
+    <path
+       style="fill:#ff7f2a;fill-opacity:1;stroke:#ff7f2a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 72.658204,124.6308 75.596086,9.86469"
+       id="path1787"
+       inkscape:export-filename="/Users/marcusedwards/Documents/Projects/advent/wreath.png"
+       inkscape:export-xdpi="61.127201"
+       inkscape:export-ydpi="61.127201" />
+    <g
+       id="g4917"
+       transform="matrix(0.99228618,0,0,0.74069432,-59.557937,29.095814)"
+       inkscape:export-filename="/Users/marcusedwards/Documents/Projects/advent/wreath.png"
+       inkscape:export-xdpi="61.127201"
+       inkscape:export-ydpi="61.127201">
+      <ellipse
+         style="fill:#ff7f2a;fill-opacity:1;stroke:#ff7f2a;stroke-width:0.973025;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse4913"
+         cx="171.62189"
+         cy="135.4062"
+         rx="3.583616"
+         ry="3.102288" />
+      <rect
+         style="fill:#ff7f2a;fill-opacity:1;stroke:#ff7f2a;stroke-width:0.848978;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4915"
+         width="7.3038673"
+         height="7.1755238"
+         x="167.97411"
+         y="127.61551" />
+    </g>
+    <path
+       style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.221366px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 115.0663,97.650783 1.80492,-39.441394 h 1.61793 l 2.17976,39.441395 z"
+       id="path872"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/Users/marcusedwards/Documents/Projects/advent/wreath.png"
+       inkscape:export-xdpi="61.127201"
+       inkscape:export-ydpi="61.127201" />
+    <path
+       style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.221366px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 148.58374,130.28905 1.80492,-39.441396 h 1.61793 l 2.17976,39.441396 z"
+       id="path1235"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/Users/marcusedwards/Documents/Projects/advent/wreath.png"
+       inkscape:export-xdpi="61.127201"
+       inkscape:export-ydpi="61.127201" />
+    <path
+       style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.221366px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 67.145028,117.5742 1.80492,-39.441405 h 1.61793 l 2.17976,39.441405 z"
+       id="path1239"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/Users/marcusedwards/Documents/Projects/advent/wreath.png"
+       inkscape:export-xdpi="61.127201"
+       inkscape:export-ydpi="61.127201" />
+    <path
+       style="fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:0.221366px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 107.9429,123.6003 1.80492,-39.441392 h 1.61793 l 2.17976,39.441392 z"
+       id="path1241"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/Users/marcusedwards/Documents/Projects/advent/wreath.png"
+       inkscape:export-xdpi="61.127201"
+       inkscape:export-ydpi="61.127201" />
+    <path
+       style="fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.221366px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 99.29306,153.25507 1.80492,-39.44139 h 1.61793 l 2.17976,39.44139 z"
+       id="path1237"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/Users/marcusedwards/Documents/Projects/advent/wreath.png"
+       inkscape:export-xdpi="61.127201"
+       inkscape:export-ydpi="61.127201" />
+    <rect
+       style="fill:#483737;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       id="rect1731"
+       width="0.6299603"
+       height="7.8745041"
+       x="221.11607"
+       y="76.540176" />
+    <ellipse
+       style="fill:#2b1100;fill-opacity:1;stroke:none;stroke-width:0.264583;filter:url(#filter2711)"
+       id="path2121"
+       cx="173.55406"
+       cy="69.295631"
+       rx="42.837299"
+       ry="39.37252" />
+  </g>
+</svg>
