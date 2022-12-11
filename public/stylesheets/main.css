@@ -1,11 +1,49 @@
 body {
-  width: 100vw;
-  height: 100vh;
+  background-color: dimgrey;
 }
 
 img {
-  margin-top: 10vh;
-  margin-left: 10vw;
-  width: 80vw;
-  min-width: 100px;
+  max-width: 100%;
+}
+
+h1 {
+  font-family: 'La Belle Aurore', cursive;
+}
+
+p {
+  margin-top: 5%;
+}
+
+ul {
+  margin-top: 5%;
+  font-size: large;
+  color: dimgrey;
+}
+
+li {
+  margin-top: 2.5%;
+}
+
+#references {
+  width: 100%;
+  background-color: #cfb4a3;
+  margin-top: 5%;
+
+  border-color: dimgrey;
+  border-radius: 5px;
+  border-style: dashed;
+}
+
+#references p {
+  font-size: small;
+  margin-left: 30px;
+  margin-bottom: 5%;
+}
+
+.jumbotron {
+  background-color: #fad9c4;
+}
+
+a {
+  cursor: pointer;
 }
